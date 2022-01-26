@@ -1,0 +1,59 @@
+jadi bikin skala gitu biar bisa ngatur kecepatan gerak
+
+misal :
+butuh 100 untuk pindah
+dengan kecepatan 25, akan butuh 4*25
+ketika itu terpenuhi maka baru pindah 1 koordinat di termin
+
+Di program "map"
+misal start di 100 kecepatan 25
+pindah ketika mencapai 150
+artinya 100 ~ 125 akan tetap di sana
+
+misal hanya bisa sampai 300
+artinya ketika balik
+300 -> 275, yang artinya akan langsung pindah karena range untuk satu koordinat tadi adalah 250 ~ 275
+
+
+bantuan ini bos : http://jyana1.info.kushiro-ct.ac.jp/pl2b/ref.html
+
+
+
+
+1. tentukan judul
+2. gerakan object (lompat juga)
+3. interaksi dengan object (sederhana dulu)
+
+4. bentuk karakter + kunci (animasinya) 
+5. map (lantai sama tiang 1)
+
+6. tiang 2
+
+7. gelut (animasi gerak)
+8. make up map 
+  │  │
+  │ ││
+  │ ││
+  │__│ 
+ [____] 
+(______)
+ ___\ ___\ ___\ 
+__\ ___\ ___\  \
+               | 
+  | o    ⍿
+  T/|\  ⊣⟜─  
+   / \
+   
+  | o    ⍿
+  T/|\  ⊣⟜─  
+    |>
+
+  | o    ⍿
+  T/|\  ⊣⟜─  
+    >\
+
+         O=M
+
+  /}
+ ; /~
+/_|
